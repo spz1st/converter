@@ -16,5 +16,7 @@ You can run the application in two ways:
      2. In the R console:
 
         &gt; setwd('path/to/the/directory/with/the/two/files')
+
         &gt; library(shiny)
+
         &gt; runApp()
