@@ -15,8 +15,6 @@ You can run the application in two ways:
         into a directory on your local computer.
      2. In the R console:
 
-        &lt; setwd('path/to/the/directory/with/the/two/files')
-
-        &lt; library(shiny)
-
-        &lt; runApp()
+        &gt; setwd('path/to/the/directory/with/the/two/files')
+        &gt; library(shiny)
+        &gt; runApp()
