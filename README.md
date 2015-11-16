@@ -1,5 +1,5 @@
 ## converter
-This is a Shiny application that does conversion between metric units
+This is a Shiny application that does conversion between metric units and
 English units for temperature (Fahrenheit and Celsius), distance (miles and
 kilometers) and valume (gallons and liters).
 
@@ -14,6 +14,7 @@ You can run the application in two ways:
      1. Download the two files, ui.R and server.R,
         into a directory on your local computer.
      2. In the R console:
+
         > setwd('path/to/the/directory/with/the/two/files')
         > library(shiny)
         > runApp()
