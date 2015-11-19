@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversion between Metric Units and English Units</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Conversion between Metric Units and English Units">
+  <meta name="author" content="P. Angzh">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Conversion between Metric Units and English Units</h1>
+    <h2>A Shiny Application</h2>
+    <p>P. Angzh<br/>Web Technology</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h3>Overview</h3>
+  </hgroup>
+  <article data-timings="">
+    <p>This application does conversion between metric units and English units for the following measuememts:</p>
+
+<ol>
+<li>temperature (between Fahrenheit and Celsius)</li>
+<li>distance (between mile and kilometer)</li>
+<li>volume (between gallon and liter)</li>
+</ol>
+
+<p>From the input page, you just select the type of conversion (e.g. F to C for converting temperatue from Fahrenheit to Celsius), enter a value, then click the Convert button to get the converted value.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h3>Temperature Conversion between Fahrenheit (F) and Celsius (C)</h3>
+  </hgroup>
+  <article data-timings="">
+    <p>The conversion between F and C is computed with the following equations:</p>
+
+<p>F = C * 9 / 5 + 32</p>
+
+<p>C = (F - 32) * 5 / 9</p>
+
+<p>For examples,</p>
+
+<pre><code class="r">   c = 20;    f = c * 9 / 5 + 32
+   f
+</code></pre>
+
+<pre><code>   ## [1] 68
+</code></pre>
+
+<pre><code class="r">   f = 98;    c = (f - 32) * 5 / 9
+   c
+</code></pre>
+
+<pre><code>   ## [1] 36.66667
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h3>Distance Conversion between Mile (M) and Kilometer (K)</h3>
+  </hgroup>
+  <article data-timings="">
+    <p>The conversion between M and K is computed with the following equations:</p>
+
+<p>K = M * 1.6093</p>
+
+<p>M = K / 1.6093</p>
+
+<p>For examples,</p>
+
+<pre><code class="r">   m = 65;    k = m * 1.6093
+   k
+</code></pre>
+
+<pre><code>   ## [1] 104.6045
+</code></pre>
+
+<pre><code class="r">   k = 120;    m = k / 1.6093
+   m
+</code></pre>
+
+<pre><code>   ## [1] 74.56658
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h3>Volume Conversion between Gallon (G) and Liter (L)</h3>
+  </hgroup>
+  <article data-timings="">
+    <p>The conversion between G and L is computed with the following equations:</p>
+
+<p>L = G * 3.7854</p>
+
+<p>G = L / 3.7854</p>
+
+<p>For examples,</p>
+
+<pre><code class="r">   g = 12;    l = g * 3.7854
+   l
+</code></pre>
+
+<pre><code>   ## [1] 45.4248
+</code></pre>
+
+<pre><code class="r">   l = 50;    g = l / 3.7854
+   g
+</code></pre>
+
+<pre><code>   ## [1] 13.20864
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Overview'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Temperature Conversion between Fahrenheit (F) and Celsius (C)'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Distance Conversion between Mile (M) and Kilometer (K)'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Volume Conversion between Gallon (G) and Liter (L)'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
