@@ -1,4 +1,4 @@
-## converter
+## Shiny application: converter
 This is a Shiny application that does conversion between metric units and
 English units for temperature (Fahrenheit and Celsius), distance (miles and
 kilometers) and valume (gallons and liters).
@@ -20,3 +20,12 @@ You can run the application in two ways:
         &gt; library(shiny)
 
         &gt; runApp()
+
+## HTML slides created with slidify
+
+The file converter.Rmd is a file for making slide presentation
+on the Shiny applicatin converter with slidify.
+The HTML file from slidify can viewed at the following link:
+
+[https://spz1st.github.io/converter/converter.html](https://spz1st.github.io/converter/converter.html)  (use the arrow keys to go through the slides)
+
