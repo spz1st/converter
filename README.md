@@ -27,9 +27,9 @@ The file converter.Rmd is a file for making slide presentation
 on the Shiny applicatin converter and the HTML slides can be created
 with slidify in the R console as following:
 
-    &gt; library(slidify)
+    > library(slidify)
 
-    &gt; slidify("converter.Rmd")
+    > slidify("converter.Rmd")
 
 
 The HTML file from slidify can be viewed at the following link:
